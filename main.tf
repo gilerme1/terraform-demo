@@ -35,8 +35,8 @@ resource "aws_instance" "nginx-server" {
 # $ ssh-keygen -t rsa -b 2048 -f nginx-server.key
 
 resource "aws_key_pair" "nginx-server-ssh" {
-  key_name   = "nginx-server-ssh"           
-  public_key = file("nginx-server.key.pub") # Este es el archivo que creaste
+  key_name   = "nginx-server-ssh-v2"           
+  public_key = file("nginx-server-v2.key.pub") # Este es el archivo que creaste
 
   tags = {
     Name = "nginx-server-ssh"
