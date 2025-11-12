@@ -1,0 +1,5 @@
+# Archivos de Terraform que no deben ser versionados
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
