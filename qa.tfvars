@@ -1,0 +1,5 @@
+region        = "us-east-1"
+ami_id        = "ami-0cae6d6fe6048ca2c"
+instance_type = "t3.medium"
+server_name   = "nginx-server-qa"
+environment   = "qa"
